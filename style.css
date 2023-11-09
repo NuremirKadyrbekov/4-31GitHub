@@ -1,0 +1,177 @@
+body{
+    background-color: #8C8C89;
+    display: flex;
+    justify-content: center;
+}
+.htmlOrCss{
+    width: 540px;
+    height: 244px;
+}
+.html{
+    margin-left: -35px;
+}
+.header{
+    width: 101%;
+    height: 20px;
+    background: #505050;
+    margin-top: -15px;
+
+}
+.resUl{
+    display: flex;
+    width: 35px;
+    justify-content: space-between;
+}
+.resUl li{
+  margin-top:-6px;
+}
+
+.mainblock .tall{
+    width: 156px;
+    height: 22px;
+background: #DACDC4;
+    display: flex;
+    justify-content: center;
+    color: #585656 ;
+}
+.block{
+    width: 138px;
+    height: 22px;
+    border-radius: 10px;
+background: #DACDC4;
+
+}
+.mainblock{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -48px;
+    width: 800px;
+    margin-left: 65px;
+}
+.navbar{
+    width: 100%;
+    height: 40px;
+    margin-top: -16px;
+    border-bottom: 1px solid #DACDC4;
+}
+.header p{
+    position: absolute;
+    margin-top: -43px;
+    margin-left: 240px;
+    display: flex;
+    color: white;
+}
+.header p img{
+    width: 18px;
+}
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    width: 30px;
+}
+.css{
+    position: relative;
+    margin-left: 20px;
+}
+li{
+    color: red;
+    margin-top: -15px;
+}
+.oneli{
+    color: red;
+    font-size: 38px;
+
+}
+.twoli{
+    color: yellow;
+    font-size: 38px;
+
+}
+.threeli{
+    color: green;
+    font-size: 38px;
+}
+.htmlOrCss{
+    width: 540px;
+    height: 244px;
+    position: relative;
+    left: 20px;
+}
+.result{
+    width: 1100px;
+    height: 434px;
+    background-color: #F9EBE0;
+    margin-top: 10px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+.area{
+    background-color: #1E1E1E;
+    width: 100%;
+    height: 225px;
+}
+.export img{
+    width: 62px;
+    margin-top: -5px;
+    margin-left: 105px;
+   
+
+}
+.export{
+    margin-left: 0px;
+
+}
+.plus img{
+    width: 62px;
+    margin-top: -5px;
+
+}
+.blocks img {
+    width: 62px;
+    margin-top: -5px;
+}
+.images{
+    display: flex;
+    width: 50px;
+    margin-left: 800px;
+    margin-top: -20px;
+    
+}
+.area1{
+    background-color: #1E1E1E;
+    height: 220px;
+    width: 100%;
+    color: white;
+}
+.area2{
+    background-color: #1E1E1E;
+    height: 220px;
+    width: 100%;
+    color: white;
+}
+iframe{
+    border: none;
+}
+#outres{
+    width: 100%;
+    height: 390px;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+.adaptive{
+    display: none;
+}
+
+@media (max-width:675px) {
+    .adaptive{
+        display: block;
+    }
+    .main{
+        display: none;
+    }
+}
